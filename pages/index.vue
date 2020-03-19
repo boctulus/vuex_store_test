@@ -3,12 +3,13 @@
       <h1 style="margin-bottom: 50px;">Prueba del Store</h1>
 
       Color: <span :style="{color: this.$store.state.colors.color}">{{ this.$store.state.colors.color }}</span>
+      <span v-if="this.$store.state.colors.color == 'red'"> ;)</span>
 
       <div style="margin-top: 50px;">
         <nuxt-link to="/dos">Página (2)</nuxt-link>
       </div>
       <div style="margin-top: 10px;">
-        <nuxt-link to="/tres">Página (3)</nuxt-link>
+        <nuxt-link to="/tres">Página (3) [ restringida ]</nuxt-link>
       </div>
       
       <div style="margin-top:100px;">

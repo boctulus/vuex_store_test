@@ -7,3 +7,9 @@ export const mutations = {
         state.color = val;
     }
 }
+
+export const getters = {
+    getColor(state) {
+        return state.color;
+    }
+}

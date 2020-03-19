@@ -23,7 +23,7 @@
 
 export default {
   mounted() {
-    console.log(this.$store.state.colors.color);
+    console.log('getColor: ' + this.$store.getters["colors/getColor"]);
   },
   
   components: {
