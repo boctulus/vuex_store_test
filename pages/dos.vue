@@ -10,6 +10,9 @@
         <div style="margin-top: 50px;">
             <nuxt-link to="/">Index</nuxt-link>
         </div>
+        <div style="margin-top: 10px;">
+            <nuxt-link to="/tres">Página (3)</nuxt-link>
+        </div>  
     </div>
 </template>
 
